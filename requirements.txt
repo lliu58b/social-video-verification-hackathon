@@ -1,0 +1,5 @@
+numpy==1.17.3
+argparse==1.4.0
+scipy==1.5.2
+scikit-learn==0.23.2
+PyWavelets==1.1.1
