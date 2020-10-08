@@ -1,3 +1,7 @@
 # Detect Deepfakes with Social Video Verification
 
 Deepfakes can spread misinformation, defamation, andpropaganda by faking videos of public speakers. In a future where deepfakes are visually indistinguishable fromreal video, how will we detect them? Help build a social verification system where people group at events to capture corroborating smartphone video and verify the truth! We have built a dataset of fakes and non-fakes with tracked facial features, and we challenge you to design an algorithm to detect the faked videos. Starter code and baseline metrics included!
+
+Starter Code:
+
+The starter code includes two files: full_sequence_exp.py and window_acc_exp.py. These files run the full sequence and sliding window experiments from the paper. Both of these files except the landmark ".mat" files to be included in the Data directory in a certain format. See the text file in the Data directory for exact naming conventions. Note that the sliding window experiment takes a bit over an hour to run for each unique triple of  (ID, small window size, threshold), so it might not be feasible to run over all the IDs, but you may be able to translate some of the concepts from that code into your own experiments. This windowed accuracy experiment also has arguments to generate a window size vs. accuracy plot and ROC curve for a specific window size (as shown in the paper). You should include similar accuracy/ROC metrics (some graphical form preferred!) with your submission. 
