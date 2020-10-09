@@ -26,7 +26,11 @@ Deepfakes can spread misinformation, defamation, andpropaganda by faking videos 
 - Follow the instructions in `./data/data.txt` to extract the pre-extracted facial landmarks.
 - The input video sequences are available [here](https://repository.library.brown.edu/studio/collections/id_1006/) --- be warned, these are _large_ (5GB per person), and we recommend working with the pre-extracted facial landmarks.
 
-Example video of the landmarks overlaid onto a person:
+Example video of the landmarks overlaid onto a person: [here](https://drive.google.com/file/d/1Hq70t2CxvzlCXcKGE_SHrYDIplQS-yxP/preview).  
+Landmarks are shown as green dots.  
+<img src="./images/faciallandmarks_video.jpg" width=480/>
+
+Example image of landmark index layout over the face:
 
 
 Example videos of real and fake sequences:
@@ -51,7 +55,10 @@ _Note:_ The sliding window experiment takes a bit over an hour to run for each u
 ### Possible approaches:
 
 - Analyse the facial landmarks via their positions and motions.
-- To familiarize yourself with the setup, start with a simple method based on a distance threshold on the lip distances --- the idea is to detect whether someone is 
+- To familiarize yourself with the setup, start with a simple method based on a distance threshold on the upper and lower lip distances --- the idea is to detect whether someone's mouth is open in one video view but closed in another video view.
+- Try to extract spatio-temporal features from the data and classify it as fake or not fake.
+- Try to cluster spatio-temporal features and group sets of videos into fakes or not fakes.
+- ¿¿¿ Deep learning ???
 
 ### Submission
 
