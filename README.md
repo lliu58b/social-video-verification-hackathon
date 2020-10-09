@@ -70,8 +70,18 @@ _Note:_ The sliding window experiment takes a bit over an hour to run for each u
 - To familiarize yourself with the setup, start with a simple method based on a distance threshold on the upper and lower lip distances --- the idea is to detect whether someone's mouth is open in one video view but closed in another video view.
 - Try to extract spatio-temporal features from the data and classify it as fake or not fake.
 - Try to cluster spatio-temporal features and group sets of videos into fakes or not fakes.
+- ¿¿¿ Machine learning ???
 - ¿¿¿ Deep learning ???
+- ¿¿¿ GANs ???
 
+### Submission
+
+- Fork the repo.
+- Work on your method.
+- Use Hack@Home's Devpost system to submit your project.
+- Deadline: Sunday 9th October 2020 at 2pm ET.
+
+<!--
 ### Submission
 
 - Fork the repo
@@ -79,7 +89,7 @@ _Note:_ The sliding window experiment takes a bit over an hour to run for each u
 - Commit back a `submission.md` file which includes a written description of your approach, plus includes the output plots of your performance from `full_sequence_exp.py`.
 - Submit your repo URL using [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSe8VrQD_oPT5Od4wpM39Xg7VwDAXIs-JxJpBPqy9ba3y3JyuQ/viewform).
 - Deadline: Sunday 9th October 2020 at 3pm ET
-
+-->
 
 <hr />
 
