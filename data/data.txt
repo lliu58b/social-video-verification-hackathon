@@ -1,0 +1,15 @@
+Download url page: https://repository.library.brown.edu/studio/item/bdr:1144738/
+Direct download:   https://repository.library.brown.edu/storage/bdr:1144738/ZIP/
+
+Extract the zip file here (the ./data/ directory)
+
+It contains at set of .mat files. 
+Expected naming is: mouth-data-fake<N>-ID<PERSON>.mat,
+where N is the fake camera number (code expects 2,3, or 4), 
+and PERSON is the participant number (code expects 1 thru 25, except 17). 
+
+Eg: mouth-data-fake3-ID11.mat
+
+These data contain facial tracking data for all participants. 
+Each face is tracked with a set of 40 landmarks per video frame, 
+as a subset of the initial 68 landmarks output from FAN.
