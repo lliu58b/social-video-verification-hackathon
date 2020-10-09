@@ -17,9 +17,6 @@ Deepfakes can spread misinformation, defamation, andpropaganda by faking videos 
 <hr />  
 
 ## Setup
-3995
-4565
-4808
 
 ### Environment Setup
 
