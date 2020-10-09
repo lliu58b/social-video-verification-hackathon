@@ -10,9 +10,9 @@ Deepfakes can spread misinformation, defamation, andpropaganda by faking videos 
 ## Project Familiarization:
 
 - Visit the [social video verification webpage](http://visual.cs.brown.edu/projects/social-video-verification-webpage/).
-- Watch the presentation video to gain an idea of the problem and of our proposed solution.
-- Look at the 'Data' section to get an idea of the setup.
-- More information about the technique is available in the [paper PDF](http://visual.cs.brown.edu/projects/social-video-verification-webpage/images/pdf-logo-over.png).
+- Watch the [presentation video](https://youtu.be/b6gPMMjfRWA) to gain an idea of the problem and of our proposed solution.
+- Look at the 'Data' section of the webpage to get an idea of the camera setup.
+- More information about the technique is available in the [paper PDF](http://visual.cs.brown.edu/projects/social-video-verification-webpage/cvprw2020/CVPRW2020_Tursman_SocialVideoVerification.pdf).
 
 <hr />  
 
