@@ -1,3 +1,9 @@
+#
+# Social Video Verification
+# Harman Suri, Eleanor Tursman
+# Brown University, 2020
+#
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -170,7 +176,7 @@ def parse_args():
 def main():
     args = parse_args()
     
-    #there is no data for ID 17
+    # There is no data for ID 17
     if args.num_participants >= 17:
         averagePCA = np.zeros((args.num_participants-1, 4))
         averageSimple = np.zeros((args.num_participants-1, 4))
@@ -181,7 +187,7 @@ def main():
     
     for i in range(args.num_participants):
         
-        #there is no data for ID 17
+        # There is no data for ID 17
         if i == 16:
             continue
         
@@ -197,7 +203,7 @@ def main():
         print(f'Iteration: {i+1}. PCA Result: {resultPCA}')
         print(f'Iteration: {i+1}. SimpleMethod Result: {resultSimple}')
         
-        
+        # There is no data for ID 17
         if i > 16:
             averagePCA[i-1] = resultPCA
             averageSimple[i-1] = resultSimple

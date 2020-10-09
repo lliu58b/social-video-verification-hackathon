@@ -1,5 +1,12 @@
+#
+# Social Video Verification
+# Harman Suri, Eleanor Tursman
+# Brown University, 2020
+#
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
 import argparse
 import os
 import numpy as np
