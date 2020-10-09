@@ -60,7 +60,7 @@ _Note:_ The sliding window experiment takes a bit over an hour to run for each u
 
 ## Task
 
-- Run the `full_sequence_exp.py` and generate results using our existing social deepfake detection method. You can see that it is successful about 80% of the time. 
+- Run the `full_sequence_exp.py` and generate results using our existing social deepfake detection method. You can see that it is successful about 70-80% of the time when one video is faked among a set of six videos. 
 - Can you do better?
 
 ### Possible approaches:
