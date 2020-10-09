@@ -11,5 +11,5 @@ and PERSON is the participant number (code expects 1 thru 25, except 17).
 Eg: mouth-data-fake3-ID11.mat
 
 These data contain facial tracking data for all participants. 
-Each face is tracked with a set of 40 landmarks per video frame, 
+Each face is tracked with a set of the 20 mouth landmarks per video frame, 
 as a subset of the initial 68 landmarks output from FAN.
