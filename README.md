@@ -14,6 +14,8 @@ Deepfakes can spread misinformation, defamation, andpropaganda by faking videos 
 - Look at the 'Data' section to get an idea of the setup.
 - More information about the technique is available in the [paper PDF](http://visual.cs.brown.edu/projects/social-video-verification-webpage/images/pdf-logo-over.png).
 
+<hr />  
+
 ## Setup
 
 ### Environment Setup
@@ -26,16 +28,20 @@ Deepfakes can spread misinformation, defamation, andpropaganda by faking videos 
 - Follow the instructions in `./data/data.txt` to extract the pre-extracted facial landmarks.
 - The input video sequences are available [here](https://repository.library.brown.edu/studio/collections/id_1006/) --- be warned, these are _large_ (5GB per person), and we recommend working with the pre-extracted facial landmarks.
 
-Example video of the landmarks overlaid onto a person: [here](https://drive.google.com/file/d/1Hq70t2CxvzlCXcKGE_SHrYDIplQS-yxP/preview).  
+Example video of the landmarks overlaid onto a participant: [here](https://drive.google.com/file/d/1Hq70t2CxvzlCXcKGE_SHrYDIplQS-yxP/preview).  
 Landmarks are shown as green dots.  
-<img src="./images/faciallandmarks_video.jpg" width=480/>
+<img src="./images/faciallandmarks_video.jpg" width=480 />
 
-Example image of landmark index layout over the face:
+Example image of landmark index layout over the face:  
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20200514113658/Face-Landmark-Representation.png" width=480 />  
+[Thank you to [www.geeksforgeeks.org](www.geeksforgeeks.org)]
 
+Example videos of real and fake sequences:  
+_Coming soon_  
+  
+<hr />  
 
-Example videos of real and fake sequences:
-
-### Code
+## Code
 
 The starter code includes two files: 
 - `full_sequence_exp.py` - detecting deep fakes using a whole video at once.
@@ -46,6 +52,8 @@ These files reproduce the full sequence and sliding window experiments from the 
 Both of these files expect the facial landmark ".mat" files to be included in the Data directory in a certain format. See the text file in the Data directory for exact naming conventions. 
 
 _Note:_ The sliding window experiment takes a bit over an hour to run for each unique triple   (participant ID, small window size, threshold), so it might not be feasible to run over all the IDs. You may be able to translate some of the concepts from that code into your own experiments. This windowed accuracy experiment also has arguments to generate a window size vs. accuracy plot and ROC curve for a specific window size (as shown in the paper). You should include similar accuracy/ROC metrics (some graphical form preferred!) with your submission.
+
+<hr />
 
 ## Task
 
