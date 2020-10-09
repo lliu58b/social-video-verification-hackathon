@@ -17,6 +17,9 @@ Deepfakes can spread misinformation, defamation, andpropaganda by faking videos 
 <hr />  
 
 ## Setup
+3995
+4565
+4808
 
 ### Environment Setup
 
@@ -26,19 +29,19 @@ Deepfakes can spread misinformation, defamation, andpropaganda by faking videos 
 ### Data Download
 
 - Follow the instructions in `./data/data.txt` to extract the pre-extracted facial landmarks.
-- The input video sequences are available [here](https://repository.library.brown.edu/studio/collections/id_1006/) --- be warned, these are _large_ (5GB per person), and we recommend working with the pre-extracted facial landmarks.
+- The input video sequences and the faked sequences via [https://github.com/Rudrabha/LipGAN/tree/fully_pythonic](LipGAN) are available [here](https://repository.library.brown.edu/studio/collections/id_1006/) --- be warned, these are _large_ (5GB per person), and we recommend working with the pre-extracted facial landmarks.
 
-Example video of the landmarks overlaid onto a participant: [here](https://drive.google.com/file/d/1Hq70t2CxvzlCXcKGE_SHrYDIplQS-yxP/preview).  
+Example video of the landmarks overlaid onto a participant: [here](https://drive.google.com/file/d/1Hq70t2CxvzlCXcKGE_SHrYDIplQS-yxP/view).  
 Landmarks are shown as green dots.  
-<img src="./images/faciallandmarks_video.jpg" width=480 />
+<a href="https://drive.google.com/file/d/1Hq70t2CxvzlCXcKGE_SHrYDIplQS-yxP/view"><img src="./images/faciallandmarks_video.jpg" width=480 /></a>
 
 Example image of landmark index layout over the face.  
 The data contains a subset of the 20 mouth landmarks [points 49-68] from the following 68 points :  
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20200514113658/Face-Landmark-Representation.png" width=480 />  
 [Thank you to [www.geeksforgeeks.org](www.geeksforgeeks.org)]
 
-Example videos of real and fake sequences:  
-_Coming soon_  
+Example video of real and fake sequences: [here](https://drive.google.com/file/d/1iiqGnVDwVOZzBeHh9YhCqPcld1915j3q/view)  
+<a href="https://drive.google.com/file/d/1iiqGnVDwVOZzBeHh9YhCqPcld1915j3q/view"><img src="./images/realfake_video.jpg" width=480 /></a>
   
 <hr />  
 
@@ -65,8 +68,8 @@ _Note:_ The sliding window experiment takes a bit over an hour to run for each u
 
 ### Possible approaches:
 
-- Plot the 20 mouth facial landmarks over time in an animation to see the motions.
-- Analyse the mouth landmarks via their positions and motions.
+- From the data, to see the motions. plot the 20 mouth facial landmarks, each as an (x,y) point, over time in an animation.
+- Analyse the mouth landmarks via their positions and motions over time.
 - To familiarize yourself with the setup, start with a simple method based on a distance threshold on the upper and lower lip distances --- the idea is to detect whether someone's mouth is open in one video view but closed in another video view.
 - Try to extract spatio-temporal features from the data and classify it as fake or not fake.
 - Try to cluster spatio-temporal features and group sets of videos into fakes or not fakes.
@@ -79,3 +82,10 @@ _Note:_ The sliding window experiment takes a bit over an hour to run for each u
 - Commit back a `submission.md` file which includes a written description of your approach, plus includes the output plots of your performance from `full_sequence_exp.py`.
 - Submit your repo URL using [this Google form](https://docs.google.com/forms/d/e/1FAIpQLSe8VrQD_oPT5Od4wpM39Xg7VwDAXIs-JxJpBPqy9ba3y3JyuQ/viewform).
 - Deadline: Sunday 9th October 2020 at 3pm ET
+
+
+<hr />
+
+### Release History
+
+- 2020-10-09 Hack@Home 2020: First version.
