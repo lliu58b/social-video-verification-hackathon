@@ -32,7 +32,8 @@ Example video of the landmarks overlaid onto a participant: [here](https://drive
 Landmarks are shown as green dots.  
 <img src="./images/faciallandmarks_video.jpg" width=480 />
 
-Example image of landmark index layout over the face:  
+Example image of landmark index layout over the face.  
+The data contains a subset of 40 of the following 68 points:  
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20200514113658/Face-Landmark-Representation.png" width=480 />  
 [Thank you to [www.geeksforgeeks.org](www.geeksforgeeks.org)]
 
@@ -62,6 +63,7 @@ _Note:_ The sliding window experiment takes a bit over an hour to run for each u
 
 ### Possible approaches:
 
+- Plot the facial landmarks over time in an animation to work out which points are which.
 - Analyse the facial landmarks via their positions and motions.
 - To familiarize yourself with the setup, start with a simple method based on a distance threshold on the upper and lower lip distances --- the idea is to detect whether someone's mouth is open in one video view but closed in another video view.
 - Try to extract spatio-temporal features from the data and classify it as fake or not fake.
