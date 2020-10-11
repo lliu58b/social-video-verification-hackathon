@@ -191,7 +191,7 @@ def main():
         if i == 16:
             continue
         
-        
+        args.data_dir = 'data/Processed-Landmarks/'
         data2 = loadmat(os.path.join(args.data_dir, f'mouth-data-fake2-ID{i+1}.mat'))
         data3 = loadmat(os.path.join(args.data_dir, f'mouth-data-fake3-ID{i+1}.mat'))
         data4 = loadmat(os.path.join(args.data_dir, f'mouth-data-fake4-ID{i+1}.mat'))
